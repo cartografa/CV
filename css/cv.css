@@ -82,8 +82,8 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: 
         'nomcon nomcon nom-con redes' 
-        'edu edu idiomas tecnologias'   
-        'forcom forcom exp exp';       
+        'edu edu forcom forcom'   
+        'exp exp idiomas tecnologias';       
     margin-bottom: 3rem;
 }
 
@@ -162,6 +162,13 @@ li {
     margin-bottom: .7rem;
 }
 
+.tecnologias li {
+    line-height: 1.5;
+}
+
+.experiencia p {
+    font-size: 0.9rem;
+}
 
 /*--------------------------------------------------/
 /                 LINKS A REDES                     /
